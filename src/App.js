@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import { Carousel } from 'react-bootstrap';
+import { Grid, Row, Col } from 'react-bootstrap';
 import logo from './logo.svg';
 import './App.css';
 
@@ -8,11 +10,41 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
+          <h1 className="App-title">About Me</h1>
         </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+        <Carousel interval={null}>
+          <Carousel.Item>
+            <p>Software Engineer and team leader with extensive experience across the entire <br/>application development lifecycle.  Skilled at communicating with and interfacing <br/>between technical and non-technical parties.  Passionate about elegant algorithm and architecture design.</p>
+            <Carousel.Caption>
+              <h3>Summary</h3>
+            </Carousel.Caption>
+          </Carousel.Item>
+          <Carousel.Item>
+            <Grid>
+              <Col md={6}>
+                <ul>
+                  <li>Leadership</li>
+                  <li>C#, XAML, SQL</li>
+                  <li>Algorithm Design</li>
+                  <li>UX Design</li>
+                  <li>Architecture Design</li>
+                </ul>
+              </Col>
+              <Col md={6}>
+                <ul>
+                  <li>Agile Software Development</li>
+                  <li>Distributed Version Control</li>
+                  <li>Continuous Integration </li>
+                  <li>Visual Studio, NUnit, Mercurial</li>
+                  <li>MVVM, OOP</li>
+                </ul>
+              </Col>
+            </Grid>
+            <Carousel.Caption>
+              <h3>Skill Highlights</h3>
+            </Carousel.Caption>
+          </Carousel.Item>
+        </Carousel>
       </div>
     );
   }
