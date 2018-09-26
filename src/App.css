@@ -23,6 +23,38 @@
   font-size: large;
 }
 
+.CarouselItem {
+  height: 600px;
+}
+
+.CarDiv {
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.CarGrid {
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+p {
+  color: white;
+}
+
+ul {
+  display: inline-block;
+  text-align:left;
+}
+
+li {
+  color: white;
+}
+
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }

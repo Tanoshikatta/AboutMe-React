@@ -12,15 +12,18 @@ class App extends Component {
           <img src={logo} className="App-logo" alt="logo" />
           <h1 className="App-title">About Me</h1>
         </header>
-        <Carousel interval={null}>
-          <Carousel.Item>
-            <p>Software Engineer and team leader with extensive experience across the entire <br/>application development lifecycle.  Skilled at communicating with and interfacing <br/>between technical and non-technical parties.  Passionate about elegant algorithm and architecture design.</p>
+        <div>
+        <Carousel className="Carousel" interval={null}>
+          <Carousel.Item className="CarouselItem">
+              <div className="CarDiv">
+                <p>Software Engineer and team leader with extensive experience across the entire <br/>application development lifecycle.  Skilled at communicating with and interfacing <br/>between technical and non-technical parties.  Passionate about elegant algorithm and architecture design.</p>
+              </div>
             <Carousel.Caption>
               <h3>Summary</h3>
             </Carousel.Caption>
           </Carousel.Item>
-          <Carousel.Item>
-            <Grid>
+          <Carousel.Item className="CarouselItem">
+            <Grid className="CarGrid">
               <Col md={6}>
                 <ul>
                   <li>Leadership</li>
@@ -45,6 +48,8 @@ class App extends Component {
             </Carousel.Caption>
           </Carousel.Item>
         </Carousel>
+        </div>
+
       </div>
     );
   }
