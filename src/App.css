@@ -1,43 +1,5 @@
 .App {
-
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-}
-
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
-}
-
-.App-title {
-  font-size: 1.5em;
-}
-
-.App-intro {
-  font-size: large;
-}
-
-.CarouselItem {
-  height: 600px;
-}
-
-.CarDiv {
-  height: 600px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.CarGrid {
-  height: 600px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  background-color: #506C7F;
 }
 
 .navbar,
@@ -49,10 +11,7 @@
     border-top-left-radius: 0;
     border-top-right-radius: 0;
     justify-content: left;
-}
-
-.navbar-default {
-  background-color: rgb(83, 145, 59);
+    background-color: #283640;
 }
 
 .nav {
@@ -71,6 +30,25 @@ ul {
 li {
   color: white;
 }
+
+.fade-enter {
+  opacity: 0;
+  z-index: 1;
+}
+
+.fade-enter.fade-enter-active {
+  opacity: 1;
+  transition: opacity 300ms ease-in;
+}
+
+/* .fade-exit {
+  opacity: 1;
+}
+
+.fade-exit.fade-exit-active {
+  opacity: 0.00;
+  transition: opacity 300ms ease-in;
+} */
 
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
