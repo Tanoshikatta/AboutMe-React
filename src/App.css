@@ -1,6 +1,5 @@
 .App {
-  text-align: center;
-  background-color: darkslategrey;
+
 }
 
 .App-logo {
@@ -41,6 +40,24 @@
   justify-content: center;
 }
 
+.navbar,
+.navbar-default {
+    background-image: none !important;
+    border: none;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    justify-content: left;
+}
+
+.navbar-default {
+  background-color: rgb(83, 145, 59);
+}
+
+.nav {
+  justify-content: left;
+}
 
 p {
   color: white;
