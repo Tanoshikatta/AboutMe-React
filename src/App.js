@@ -16,16 +16,20 @@ class App extends Component {
         <Route render={({ location }) => (
           <div className="App">
             <div>
-              <Navbar className="navbar-inverse">
+              <Navbar inverse collapseOnSelect>
                 <Navbar.Header>
                   <Navbar.Brand>
                     Austin Spears
                   </Navbar.Brand>
+                  <Navbar.Toggle/>
                 </Navbar.Header>
-                <Nav>
-                  <NavItem componentClass={Link} href="/" to="/">Home</NavItem>
-                  <NavItem componentClass={Link} href="/skills" to="/skills">Skills</NavItem>
-                </Nav>
+
+                <Navbar.Collapse>
+                  <Nav>
+                    <NavItem componentClass={Link} href="/" to="/">Home</NavItem>
+                    <NavItem componentClass={Link} href="/skills" to="/skills">Skills</NavItem>
+                  </Nav>
+                </Navbar.Collapse>
               </Navbar>
               <div>
                 <TransitionGroup className="transition-group">
