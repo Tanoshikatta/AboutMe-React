@@ -11,7 +11,7 @@ class Home extends Component {
                                }}>
                 <h1>Welcome!</h1>
                 <p style={{maxWidth: 800}}>
-                    The url and navbar probably clued you in, but in case you were curious I'm Austin Spears.
+                    The url and navbar probably clued you in, but I'm Austin Spears.
                     I have been developing software professionally for over six years with a primary focus on
                     creating WPF applications using XAML and C#.
                     <br/>
