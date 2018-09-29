@@ -2,9 +2,8 @@ import React, { Component } from 'react';
 //import { Carousel } from 'react-bootstrap';
 //import { Grid, Row, Col } from 'react-bootstrap';
 import { Navbar, Nav, NavItem } from 'react-bootstrap';
-import { BrowserRouter, Route, Switch, NavLink } from 'react-router-dom';
+import { BrowserRouter, Route, Switch, NavLink, Link } from 'react-router-dom';
 import { TransitionGroup, CSSTransition } from 'react-transition-group';
-import { LinkContainer } from 'react-router-bootstrap';
 
 import './App.css';
 import Home from './components/home';
@@ -24,12 +23,8 @@ class App extends Component {
                   </Navbar.Brand>
                 </Navbar.Header>
                 <Nav>
-                  <LinkContainer to="/" activeClassName="">
-                    <NavItem>Home</NavItem>
-                  </LinkContainer>
-                  <LinkContainer to="/skills" activeClassName="">
-                    <NavItem>Skills</NavItem>
-                  </LinkContainer>
+                  <NavItem componentClass={Link} href="/" to="/">Home</NavItem>
+                  <NavItem componentClass={Link} href="/skills" to="/skills">Skills</NavItem>
                 </Nav>
               </Navbar>
               <div>
