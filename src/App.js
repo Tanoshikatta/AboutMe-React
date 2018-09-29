@@ -33,16 +33,17 @@ class App extends Component {
                 </Nav>
               </Navbar>
               <div>
-                <TransitionGroup>
+                <TransitionGroup className="transition-group">
                   <CSSTransition
                     key={location.key}
                     classNames='fade'
-                    timeout={300}
-                  >
-                    <Switch location={location}>
-                      <Route exact path="/" component={Home}/>
-                      <Route path="/skills" component={Skills}/>
-                    </Switch>
+                    timeout={300}>
+                    <section className="route-section">
+                      <Switch location={location}>
+                          <Route exact path="/" component={Home}/>
+                          <Route path="/skills" component={Skills}/>
+                        </Switch>
+                    </section>
                   </CSSTransition>
                 </TransitionGroup>
               </div>
