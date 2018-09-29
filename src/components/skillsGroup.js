@@ -10,7 +10,7 @@ class SkillsGroup extends Component{
             <div>
                 <h3>{this.props.title}</h3>
                 <div style={{position: "relative", 
-                             left: 8,
+                             left: 20,
                              top: 10}}>
                     {this.props.skills}
                 </div>
