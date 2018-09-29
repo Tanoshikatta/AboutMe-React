@@ -70,6 +70,8 @@ li {
   width: 100%;
   top: 0;
   left: 0;
+  display: flex;
+  justify-content: center;
 }
 
 @keyframes App-logo-spin {
