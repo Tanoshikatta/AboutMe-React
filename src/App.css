@@ -14,6 +14,16 @@
     background-color: #283640;
 }
 
+.navbar-inverse .navbar-brand {
+  color: whitesmoke;
+}
+
+.navbar-inverse .navbar-brand:hover, 
+.navbar-inverse .navbar-brand:focus {
+  background-color: transparent;
+  color: whitesmoke;
+}
+
 .nav {
   justify-content: left;
 }
