@@ -5,9 +5,7 @@ import SkillsGroup from '../components/skillsGroup';
 class Skills extends Component {
     render() {
         return (
-            <div style={{maxWidth: 800,
-                marginTop: 0,
-                marginLeft: 30, marginRight: 30}}>
+            <div style={{maxWidth: 800}}>
                 <h2>Professional</h2>
                 <Grid>
                     <Row>
