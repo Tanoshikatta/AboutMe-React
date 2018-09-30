@@ -6,11 +6,12 @@ class Home extends Component {
         return(
             <Jumbotron style={{backgroundColor: "#506C7F", 
                                position: "relative",
+                               maxWidth: 800,
                                marginLeft: 30,
                                marginRight: 30,
                                }}>
                 <h1>Welcome!</h1>
-                <p style={{maxWidth: 800}}>
+                <p>
                     The url and navbar probably clued you in, but I'm Austin Spears.
                     I have been developing software professionally for over six years with a primary focus on
                     creating WPF applications using XAML and C#.

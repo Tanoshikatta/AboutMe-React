@@ -6,7 +6,8 @@ class Skills extends Component {
     render() {
         return (
             <div style={{maxWidth: 800,
-                marginTop: 50}}>
+                marginTop: 0,
+                marginLeft: 30, marginRight: 30}}>
                 <h2>Professional</h2>
                 <Grid>
                     <Row>
