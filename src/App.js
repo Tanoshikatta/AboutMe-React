@@ -6,8 +6,9 @@ import { BrowserRouter, Route, Switch, NavLink, Link } from 'react-router-dom';
 import { TransitionGroup, CSSTransition } from 'react-transition-group';
 
 import './App.css';
-import Home from './components/home';
-import Skills from './components/skills';
+import Home from './pages/home';
+import Skills from './pages/skills';
+import Projects from './pages/projects';
 
 class App extends Component {
   render() {
@@ -28,6 +29,7 @@ class App extends Component {
                   <Nav>
                     <NavItem componentClass={Link} href="/" to="/">Home</NavItem>
                     <NavItem componentClass={Link} href="/skills" to="/skills">Skills</NavItem>
+                    <NavItem componentClass={Link} href="/projects" to="/projects">Projects</NavItem>
                   </Nav>
                 </Navbar.Collapse>
               </Navbar>
@@ -41,6 +43,7 @@ class App extends Component {
                       <Switch location={location}>
                           <Route exact path="/" component={Home}/>
                           <Route path="/skills" component={Skills}/>
+                          <Route path="/projects" component={Projects}/>
                         </Switch>
                     </section>
                   </CSSTransition>

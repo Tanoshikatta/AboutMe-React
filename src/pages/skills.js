@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Grid, Col, Row } from 'react-bootstrap'
-import SkillsGroup from './skillsGroup';
+import SkillsGroup from '../components/skillsGroup';
 
 class Skills extends Component {
     render() {
