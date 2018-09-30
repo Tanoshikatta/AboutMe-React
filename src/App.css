@@ -11,8 +11,23 @@
     border-bottom-right-radius: 0;
     border-top-left-radius: 0;
     border-top-right-radius: 0;
-    justify-content: left;
     background-color: #283640;
+}
+
+.navbar-brand,
+.navbar-nav li a {
+    line-height: 60px;
+    height: 60px;
+    padding-top: 0;
+}
+
+.navbar-toggle {
+  padding-top: 15px;
+}
+
+.navbar-inverse .navbar-toggle:hover,
+.navbar-inverse .navbar-toggle:focus {
+  background-color: transparent;
 }
 
 .navbar-inverse .navbar-brand {
@@ -23,10 +38,6 @@
 .navbar-inverse .navbar-brand:focus {
   background-color: transparent;
   color: whitesmoke;
-}
-
-.nav {
-  justify-content: left;
 }
 
 p {

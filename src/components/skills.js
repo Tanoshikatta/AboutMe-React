@@ -58,8 +58,8 @@ class Skills extends Component {
                         <Col sm={4} md={4}>
                             <SkillsGroup title="Frameworks" skills={
                                 <div>
-                                    <p>ReactJS</p>
-                                    <p>Bootstrap</p>
+                                    <p>React</p>
+                                    <p>React-Bootstrap</p>
                                 </div>}/>
                         </Col>
                     </Row>
