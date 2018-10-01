@@ -4,12 +4,7 @@ import { Jumbotron, Button } from 'react-bootstrap';
 class Home extends Component {
     render(){
         return(
-            <Jumbotron style={{backgroundColor: "#506C7F", 
-                               position: "relative",
-                               maxWidth: 800,
-                               marginLeft: 30,
-                               marginRight: 30,
-                               }}>
+            <Jumbotron>
                 <h1>Welcome!</h1>
                 <p>
                     The url and navbar probably clued you in, but I'm Austin Spears.

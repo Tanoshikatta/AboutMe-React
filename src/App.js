@@ -5,7 +5,8 @@ import { Navbar, Nav, NavItem } from 'react-bootstrap';
 import { BrowserRouter, Route, Switch, NavLink, Link } from 'react-router-dom';
 import { TransitionGroup, CSSTransition } from 'react-transition-group';
 
-import './App.css';
+import './css/App.css';
+import './css/pages.css';
 import Home from './pages/home';
 import Skills from './pages/skills';
 import Projects from './pages/projects';
