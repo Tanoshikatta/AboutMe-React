@@ -25,7 +25,7 @@ class Projects extends Component {
                 </div>
 
                 <div>
-                <h2 style={{marginTop: 50}}>Hobby</h2>
+                <h2 style={{marginTop: 100}}>Hobby</h2>
                 <ProjectBlurb 
                     title="ArkanoidJS" 
                     description={
