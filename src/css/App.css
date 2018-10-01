@@ -34,6 +34,7 @@ body {
     padding-top: 0;
 }
 
+
 .navbar-toggle {
   padding-top: 15px;
 }
@@ -80,22 +81,22 @@ li {
 }
 
 .fade-enter {
-  opacity: 0;
+  margin-left: 100%;
   z-index: 1;
 }
 
 .fade-enter.fade-enter-active {
-  opacity: 1;
-  transition: opacity 300ms ease-in;
+  margin-left: 0%;
+  transition: margin-left 400ms;
 }
 
 .fade-exit {
-  opacity: 1;
+  margin-left: 0%;
 }
 
 .fade-exit.fade-exit-active {
-  opacity: 0.00;
-  transition: opacity 300ms ease-in;
+  margin-left: -100%;
+  transition: margin-left 400ms;
 }
 
 .transition-group {
@@ -109,6 +110,15 @@ li {
   left: 0;
   display: flex;
   justify-content: center;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+  }
+  to {
+    margin-left: 0%;
+  }
 }
 
 @keyframes App-logo-spin {
