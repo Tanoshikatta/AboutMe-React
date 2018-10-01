@@ -11,8 +11,8 @@ class ProjectBlurb extends Component {
             // Need header and description areas
             <div style={{marginLeft: 15}}>
                 <h3>{this.props.title}</h3>
-                <div style={{maxWidth: 600, marginLeft:15, marginRight:15}}>{this.props.description}</div>
-                <div style={{float: "left"}}>{this.props.badges}</div>
+                <div style={{maxWidth: 600, marginLeft:15, marginRight:10}}>{this.props.description}</div>
+                <div style={{float: "left", marginLeft: 10}}>{this.props.badges}</div>
                 <Button onClick={this.props.buttonClick}
                         bsStyle="primary"
                         bsSize="xsmall" 

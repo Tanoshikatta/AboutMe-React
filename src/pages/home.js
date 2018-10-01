@@ -5,11 +5,11 @@ class Home extends Component {
     render(){
         return(
             <Jumbotron>
-                <h1>Welcome!</h1>
+                <h1 style={{marginLeft: -10, marginBottom: 20}}>Welcome!</h1>
                 <p>
                     The url and navbar probably clued you in, but I'm Austin Spears.
-                    I have been developing software professionally for over six years with a primary focus on
-                    creating WPF applications using XAML and C#.
+                    I have been developing software professionally for over six years 
+                    with a primary focus on creating WPF applications using XAML and C#.
                     <br/>
                     <br/>
                     I am currently the team lead for Datawatch's data preparation product: Data Prep Studio

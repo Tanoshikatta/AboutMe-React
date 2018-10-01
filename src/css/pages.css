@@ -1,5 +1,6 @@
 .jumbotron {
     background-color: transparent; 
+    color: var(--h1-color);
     position: relative;
     max-width: 800px;
     margin-left: 30px;
