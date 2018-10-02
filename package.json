@@ -2,8 +2,10 @@
   "name": "about-me",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://austinspears.github.io/about-me/",
   "dependencies": {
     "bootstrap": "^3.3.7",
+    "gh-pages": "^2.0.0",
     "react": "^16.5.2",
     "react-bootstrap": "^0.32.4",
     "react-dom": "^16.5.2",
