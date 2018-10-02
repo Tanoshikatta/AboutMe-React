@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Button } from 'react-bootstrap';
+import '../css/pages.css'
 
 class ProjectBlurb extends Component {
     constructor(props){
@@ -9,7 +10,7 @@ class ProjectBlurb extends Component {
     render(){
         return (
             // Need header and description areas
-            <div style={{marginLeft: 15}}>
+            <div className={this.props.className}>
                 <h3>{this.props.title}</h3>
                 <div style={{maxWidth: 600, marginLeft:15, marginRight:10}}>{this.props.description}</div>
                 <div style={{float: "left", marginLeft: 10}}>{this.props.badges}</div>

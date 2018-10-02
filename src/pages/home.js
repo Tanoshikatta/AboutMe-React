@@ -9,10 +9,10 @@ class Home extends Component {
                 <p>
                     The url and navbar probably clued you in, but I'm Austin Spears.
                     I have been developing software professionally for over six years 
-                    with a primary focus on creating WPF applications using XAML and C#.
+                    with a primary focus on creating desktop applications using XAML and C#.
                     <br/>
                     <br/>
-                    I am currently the team lead for Datawatch's data preparation product: Data Prep Studio
+                    I am currently the team lead for Datawatch's self service data preparation product: Data Prep Studio
                 </p>
                 <p>
                     <Button bsStyle="primary" onClick={this.linkedInClick}>LinkedIn Profile</Button>

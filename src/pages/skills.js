@@ -14,6 +14,8 @@ class Skills extends Component {
                                 <div>
                                     <p>XAML</p>
                                     <p>C#</p>
+                                    <p>SQL</p>
+                                    <p>LINQ</p>
                                 </div>}/>
                         </Col>
                         <Col sm={4} md={4}>
@@ -58,6 +60,7 @@ class Skills extends Component {
                             <SkillsGroup title="Frameworks" skills={
                                 <div>
                                     <p>React</p>
+                                    <p>React Router</p>
                                     <p>React-Bootstrap</p>
                                 </div>}/>
                         </Col>
