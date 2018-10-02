@@ -15,7 +15,9 @@ class Projects extends Component {
                                     className="innerProjectBlurb"
                                     title="Data Prep Studio"
                                     description={
-                                        <p>Datawatch's modern data preparation tool.  I am currently the development lead for this product!</p>
+                                        <p>Datawatch's modern data preparation tool.  DPS is the everything people love about Monarch, but with a far more approachable user experience.  
+                                            DPS specializes in capturing data from a variety of sources and then applying cleansing operations that can be stored as a process flow and 
+                                            re-applied to next week's data. I am currently the development lead for this product!</p>
                                     }
                                     badges={
                                         <div>
@@ -29,11 +31,12 @@ class Projects extends Component {
                             <Col sm={6} md={6}>
                                 <ProjectBlurb
                                     className="innerProjectBlurb"
-                                    title="Table Extractor"
+                                    title="Panopticon"
                                     description={
-                                        <p>A tool for automatically discovering tables within PDF files, which can then be exported to Data Prep Studio.  The algorithms in 
-                                            Table Extractor have since been patented as part of US Patent: <a href="http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO1&Sect2=HITOFF&d=PALL&p=1&u=%252Fnetahtml%252FPTO%252Fsrchnum.htm&r=1&f=G&l=50&s1=9703766.PN.&OS=PN/9703766&RS=PN/9703766">9703766</a>.  I am technically also the development lead for this product 
-                                            and was the team lead during its creation.</p>
+                                        <p>Datawatch's data visualization tool.  Following Datawatch's aquisition of Panopticon Software I moved to Stockholm, Sweden
+                                            for three months in order to build relationships and help integrate their team into our organization.  During my time there
+                                            I worked on various bits of the front end code which included inventing a new gesture for placing a visualization onto the canvas.
+                                        </p>
                                     }
                                     badges={
                                         <div>
@@ -42,7 +45,7 @@ class Projects extends Component {
                                         </div>
                                     }
                                     buttonTitle="Website"
-                                    buttonClick={() => this.buttonClickHandler("https://www.datawatch.com/our-platform/table-extractor/")}/>
+                                    buttonClick={() => this.buttonClickHandler("https://www.datawatch.com/our-platform/panopticon/")}/>
                             </Col>
                         </Row>
                         <Row>
@@ -67,12 +70,11 @@ class Projects extends Component {
                             <Col sm={6} md={6}>
                                 <ProjectBlurb
                                     className="innerProjectBlurb"
-                                    title="Panopticon"
+                                    title="Table Extractor"
                                     description={
-                                        <p>Datawatch's data visualization tool.  Following Datawatch's aquisition of Panopticon Software I moved to Stockholm, Sweden
-                                            for three months in order to build relationships and help integrate their team into our organization.  During my time there
-                                            I worked on various bits of the front end code which included inventing a new gesture for placing a visualization onto the canvas.
-                                        </p>
+                                        <p>A tool for automatically discovering tables within PDF files, which can then be exported to Data Prep Studio.  The algorithms in 
+                                            Table Extractor have since been patented as part of US Patent: <a href="http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO1&Sect2=HITOFF&d=PALL&p=1&u=%252Fnetahtml%252FPTO%252Fsrchnum.htm&r=1&f=G&l=50&s1=9703766.PN.&OS=PN/9703766&RS=PN/9703766">9703766</a>.  I am technically also the development lead for this product 
+                                            and was the team lead during its creation.</p>
                                     }
                                     badges={
                                         <div>
@@ -81,13 +83,13 @@ class Projects extends Component {
                                         </div>
                                     }
                                     buttonTitle="Website"
-                                    buttonClick={() => this.buttonClickHandler("https://www.datawatch.com/our-platform/panopticon/")}/>
+                                    buttonClick={() => this.buttonClickHandler("https://www.datawatch.com/our-platform/table-extractor/")}/>
                             </Col>
                         </Row>
                     </Grid>
                 </div>
                 <div>
-                    <h2 style={{marginTop: 80, marginBottom: -30}}>Hobby</h2>
+                    <h2 style={{marginTop: 50, marginBottom: -30}}>Hobby</h2>
                     <Grid>
                         <Row>
                             <Col sm={6} md={6}>
@@ -122,7 +124,6 @@ class Projects extends Component {
                                             <Badge>React-Bootstrap</Badge>
                                             <Badge>HTML</Badge>
                                             <Badge>CSS</Badge>
-                                            <Badge>JavaScript</Badge>
                                         </div>
                                     }
                                     buttonTitle="Source"
