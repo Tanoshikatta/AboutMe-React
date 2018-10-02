@@ -43,6 +43,7 @@ class App extends Component {
                     <section className="route-section">
                       <Switch location={location}>
                           <Route exact path="/" component={Home}/>
+                          <Route path="/about-me" component={Home}/>
                           <Route path="/skills" component={Skills}/>
                           <Route path="/projects" component={Projects}/>
                         </Switch>
