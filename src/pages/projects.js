@@ -17,7 +17,7 @@ class Projects extends Component {
                                     description={
                                         <p>Datawatch's modern data preparation tool.  DPS is the everything people love about Monarch, but with a far more approachable user experience.  
                                             DPS specializes in capturing data from a variety of sources and then applying cleansing operations that can be stored as a process flow and 
-                                            re-applied to next week's data. I am currently the development lead for this product!</p>
+                                            re-applied to next week's data. I am currently the development lead for this product.</p>
                                     }
                                     badges={
                                         <div>
@@ -73,8 +73,8 @@ class Projects extends Component {
                                     title="Table Extractor"
                                     description={
                                         <p>A tool for automatically discovering tables within PDF files, which can then be exported to Data Prep Studio.  The algorithms in 
-                                            Table Extractor have since been patented as part of US Patent: <a href="http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO1&Sect2=HITOFF&d=PALL&p=1&u=%252Fnetahtml%252FPTO%252Fsrchnum.htm&r=1&f=G&l=50&s1=9703766.PN.&OS=PN/9703766&RS=PN/9703766">9703766</a>.  I am technically also the development lead for this product 
-                                            and was the team lead during its creation.</p>
+                                            Table Extractor have since been patented as part of US Patent: <a href="http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO1&Sect2=HITOFF&d=PALL&p=1&u=%252Fnetahtml%252FPTO%252Fsrchnum.htm&r=1&f=G&l=50&s1=9703766.PN.&OS=PN/9703766&RS=PN/9703766">9703766</a>.  
+                                            I am also the development lead for this product.</p>
                                     }
                                     badges={
                                         <div>

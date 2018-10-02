@@ -12,7 +12,7 @@ class Home extends Component {
                     with a primary focus on creating desktop applications using XAML and C#.
                     <br/>
                     <br/>
-                    I am currently the team lead for Datawatch's self service data preparation product: Data Prep Studio!
+                    I am currently the team lead for Datawatch's self service data preparation tool: Data Prep Studio!
                 </p>
                 <p>
                     <Button bsStyle="primary" onClick={this.linkedInClick}>LinkedIn Profile</Button>
