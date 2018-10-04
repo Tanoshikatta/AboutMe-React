@@ -16,8 +16,8 @@ class Projects extends Component {
                                     title="Data Prep Studio"
                                     description={
                                         <p>Datawatch's modern data preparation tool.  DPS is the everything people love about Monarch, but with a far more approachable user experience.  
-                                            DPS specializes in capturing data from a variety of sources and then applying cleansing operations that can be stored as a process flow and 
-                                            re-applied to next week's data. I am currently the development lead for this product.</p>
+                                            DPS specializes in capturing data, cleansing and normalizing it, storing that process as a workflow, and then reapplying 
+                                            that workflow to next week's data. I am currently the development lead for this product.</p>
                                     }
                                     badges={
                                         <div>
@@ -127,7 +127,7 @@ class Projects extends Component {
                                         </div>
                                     }
                                     buttonTitle="Source"
-                                    buttonClick={() => this.buttonClickHandler("https://github.com/AustinSpears/AboutMe-React")
+                                    buttonClick={() => this.buttonClickHandler("https://github.com/AustinSpears/about-me")
                                     }/>
                             </Col>
                         </Row>
