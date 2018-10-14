@@ -15,7 +15,7 @@ class Projects extends Component {
                                     className="innerProjectBlurb"
                                     title="Data Prep Studio"
                                     description={
-                                        <p>Datawatch's modern data preparation tool.  DPS is the everything people love about Monarch, but with a far more approachable user experience.  
+                                        <p>Datawatch's modern data preparation tool.  DPS is everything people love about Monarch, but with a far more approachable user experience.  
                                             DPS specializes in capturing data, cleansing and normalizing it, storing that process as a workflow, and then reapplying 
                                             that workflow to next week's data. I am currently the development lead for this product.</p>
                                     }
@@ -26,7 +26,7 @@ class Projects extends Component {
                                         </div>
                                     }
                                     buttonTitle="Website"
-                                    buttonClick={() => this.buttonClickHandler("https://docs.datawatch.com/monarch/desktop/About_Data_Prep_Studio.htm")}/>
+                                    buttonClick={() => this.buttonClickHandler("https://docs.datawatch.com/dps/")}/>
                             </Col>
                             <Col sm={6} md={6}>
                                 <ProjectBlurb
