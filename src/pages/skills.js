@@ -52,7 +52,6 @@ class Skills extends Component {
                             <SkillsGroup title="Tools" skills={
                                 <div>
                                     <p>Visual Studio Code</p>
-                                    <p>IntelliJ</p>
                                     <p>Git</p>
                                 </div>}/>
                         </Col>
