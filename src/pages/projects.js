@@ -131,6 +131,27 @@ class Projects extends Component {
                                     }/>
                             </Col>
                         </Row>
+                        <Row>
+                        <Col sm={6} md={6}>
+                                <ProjectBlurb
+                                    className="innerProjectBlurb" 
+                                    title="Level Editor - ArkanoidJS" 
+                                    description={
+                                        <p>A WPF application I developed to quickly build levels for my ArkanoidJS game.</p>
+                                    }
+                                    badges={
+                                        <div>
+                                            <Badge>XAML</Badge>
+                                            <Badge>C#</Badge>
+                                            <Badge>MVVM</Badge>
+                                        </div>
+                                    }
+                                    buttonTitle="Source"
+                                    buttonClick={() => this.buttonClickHandler("https://github.com/AustinSpears/ArkanoidJS-LevelEditor-WPF")
+                                    }
+                                />
+                            </Col>
+                        </Row>
                     </Grid>
                 </div>
             </div>
