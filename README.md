@@ -1,3 +1,10 @@
+Important commands:  
+
+  npm start (starts a local webserver)  
+  npm run deploy (deploys the tip of master to the gh-pages branch)  
+
+---  
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
