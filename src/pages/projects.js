@@ -5,14 +5,14 @@ import ProjectBlurb from '../components/projectBlurb';
 class Projects extends Component {
     render(){
         return(
-            <div>
+            <div className="pageContentContainer">
                 <div>
-                    <h2 style={{marginBottom: -30}}>Professional</h2>
+                    <h2>Professional</h2>
                     <Grid>
                         <Row>
                             <Col sm={6} md={6}>
                                 <ProjectBlurb
-                                    className="innerProjectBlurb"
+                                    className="projectBlurb"
                                     title="Data Prep Studio"
                                     description={
                                         <p>Datawatch's modern data preparation tool.  DPS is everything people love about Monarch, but with a far more approachable user experience.  
@@ -30,7 +30,7 @@ class Projects extends Component {
                             </Col>
                             <Col sm={6} md={6}>
                                 <ProjectBlurb
-                                    className="innerProjectBlurb"
+                                    className="projectBlurb"
                                     title="Panopticon"
                                     description={
                                         <p>Datawatch's data visualization tool.  Following Datawatch's aquisition of Panopticon Software I moved to Stockholm, Sweden
@@ -51,7 +51,7 @@ class Projects extends Component {
                         <Row>
                             <Col sm={6} md={6}>
                                 <ProjectBlurb
-                                    className="innerProjectBlurb"
+                                    className="projectBlurb"
                                     title="Monarch"
                                     description={
                                         <p>Datawatch's legacy data preparation tool.  I worked on parts of Monarch 11 towards the end of its life cycle and helped 
@@ -69,7 +69,7 @@ class Projects extends Component {
                             </Col>
                             <Col sm={6} md={6}>
                                 <ProjectBlurb
-                                    className="innerProjectBlurb"
+                                    className="projectBlurb"
                                     title="Table Extractor"
                                     description={
                                         <p>A tool for automatically discovering tables within PDF files, which can then be exported to Data Prep Studio.  The algorithms in 
@@ -88,13 +88,13 @@ class Projects extends Component {
                         </Row>
                     </Grid>
                 </div>
-                <div>
-                    <h2 style={{marginTop: 50, marginBottom: -30}}>Hobby</h2>
+                <div style={{marginTop:40}}>
+                    <h2>Hobby</h2>
                     <Grid>
                         <Row>
                             <Col sm={6} md={6}>
                                 <ProjectBlurb
-                                    className="innerProjectBlurb" 
+                                    className="projectBlurb" 
                                     title="ArkanoidJS" 
                                     description={
                                         <p>Arkanoid-esque game I'm developing to learn the ins and outs of vanilla JavaScript.</p>
@@ -113,7 +113,7 @@ class Projects extends Component {
                             </Col>
                             <Col sm={6} md={6}>                
                                 <ProjectBlurb
-                                    className="innerProjectBlurb" 
+                                    className="projectBlurb" 
                                     title="Personal Website" 
                                     description={
                                         <p>I developed this website as a way to learn more about React, CSS, and HTML.</p>
@@ -134,7 +134,7 @@ class Projects extends Component {
                         <Row>
                         <Col sm={6} md={6}>
                                 <ProjectBlurb
-                                    className="innerProjectBlurb" 
+                                    className="projectBlurb" 
                                     title="Level Editor - ArkanoidJS" 
                                     description={
                                         <p>A WPF application I developed to quickly build levels for my ArkanoidJS game.</p>
