@@ -17,7 +17,7 @@ class ProjectBlurb extends Component {
                 <Button onClick={this.props.buttonClick}
                         bsStyle="primary"
                         bsSize="xsmall" 
-                        style={{minWidth: 80, float: "right"}}>
+                        style={{minWidth: 80, marginTop:2, float: "right"}}>
                     {this.props.buttonTitle}
                 </Button>
             </div>
